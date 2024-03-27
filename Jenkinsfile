@@ -24,6 +24,6 @@ import org.emic.devsu.*
 */
 mainPipeline {
     projectType = "nodejs"
-    // test = [true, true, true]
-    // codeAnalysis = true   
+    test = [true, true, true]
+    codeAnalysis = true   
 }
