@@ -25,5 +25,8 @@ import org.emic.devsu.*
 mainPipeline {
     projectType = "nodejs"
     test = [true, true, true]
-    codeAnalysis = true   
+    codeAnalysis = true
+    codeCoverage = true
+    delivery = true
+    deploy = true
 }
