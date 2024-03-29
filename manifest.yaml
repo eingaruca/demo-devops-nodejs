@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: eingaruca/demosb:v1 
+        image: eingaruca/nodejs:v1 
         ports:
         - containerPort: 3000
 
