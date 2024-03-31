@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: eingaruca/nodejs:v1
+        image: eingaruca/nodejs:TAGVARIABLE
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
