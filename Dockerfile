@@ -1,4 +1,5 @@
 FROM node:lts-alpine3.19
+RUN apk add curl
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
